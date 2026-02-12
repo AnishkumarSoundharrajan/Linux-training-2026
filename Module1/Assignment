@@ -1,5 +1,8 @@
+Q1.Create a file and add executable permission to all users (user, group and others)
+
 touch file1.sh
 anish@ANISHKUMAR:~$ ls -l file1.sh
 -rw-r--r-- 1 anish anish 0 Feb 12 09:01 file1.sh
 anish@ANISHKUMAR:~$ chmod +x file1.sh
 anish@ANISHKUMAR:~$ ls -l file1.sh
+--------------------------------------------------------------------------------------
