@@ -6,3 +6,26 @@ anish@ANISHKUMAR:~$ ls -l file1.sh
 anish@ANISHKUMAR:~$ chmod +x file1.sh
 anish@ANISHKUMAR:~$ ls -l file1.sh
 --------------------------------------------------------------------------------------
+Q2. Create a file and remove write permission for group user alone
+
+touch file2.txt
+chmod g-w file2.txt
+ls -l file2.txt
+---------------------------------------------------------------------------------------
+Q3. Create a file and add a soft link in a different directory
+
+mkdir dir1 dir2
+touch dir2/file3.txt
+ln -s ../dir2/file3.txt dir1/file3_link.txt
+ls -l dir1
+-------------------------------------------------------------------------------------
+Q4. Use ps command with options to display all active processes
+
+ps -ef
+-------------------------------------------------------------------------------------
+Q5. Create three files in a directory and redirect the sorted list output to a file
+
+cd dir1
+touch a.txt b.txt c.txt
+ls -lt > output.txt
+cat output.txt
